@@ -1,0 +1,2735 @@
+Microsoft Windows [Versi¢n 10.0.17763.1]
+(c) 2018 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Windows\SysWOW64>echo ####System Info#### & systeminfo & echo ####System Version#### & ver & echo ####Host Name#### & hostname & echo ####Environment Variable#### & set & echo ####Logical Disk#### & wmic logicaldisk get caption,description,providername & echo ####User Info#### & net user & echo ####Online User#### & query user & echo ####Local Group#### & net localgroup & echo ####Administrators Info#### & net localgroup administrators & echo ####Guest User Info#### & net user guest & echo ####Administrator User Info#### & net user administrator & echo ####Startup Info#### & wmic startup get caption,command & echo ####Tasklist#### & tasklist /svc & echo ####Ipconfig#### & ipconfig/all & echo ####Hosts#### & type C:\WINDOWS\System32\drivers\etc\hosts & echo ####Route Table#### & route print & echo ####Arp Info#### & arp -a & echo ####Netstat#### & netstat -ano & echo ####Service Info#### & sc query type= service state= all & echo ####Firewallinfo#### & netsh firewall show state & netsh firewall show config
+####System Info#### 
+
+Nombre de host:                            DESKTOP-EPO91MI
+Nombre del sistema operativo:              Microsoft Windows 10 Enterprise LTSC
+Versi¢n del sistema operativo:             10.0.17763 N/D Compilaci¢n 17763
+Fabricante del sistema operativo:          Microsoft Corporation
+Configuraci¢n del sistema operativo:       Estaci¢n de trabajo independiente
+Tipo de compilaci¢n del sistema operativo: Multiprocessor Free
+Propiedad de:                              PC1
+Organizaci¢n registrada:                   
+Id. del producto:                          00425-00000-00002-AA567
+Fecha de instalaci¢n original:             26/4/2022, 16:34:24
+Tiempo de arranque del sistema:            11/9/2022, 01:01:12
+Fabricante del sistema:                    To Be Filled By O.E.M.
+Modelo el sistema:                         To Be Filled By O.E.M.
+Tipo de sistema:                           x64-based PC
+Procesador(es):                            1 Procesadores instalados.
+                                           [01]: Intel64 Family 6 Model 30 Stepping 5 GenuineIntel ~2527 Mhz
+Versi¢n del BIOS:                          American Megatrends Inc. 080015 , 23/7/2019
+Directorio de Windows:                     C:\Windows
+Directorio de sistema:                     C:\Windows\system32
+Dispositivo de arranque:                   \Device\HarddiskVolume2
+Configuraci¢n regional del sistema:        es;Espa¤ol (internacional)
+Idioma de entrada:                         es-mx;Espa¤ol (M‚xico)
+Zona horaria:                              (UTC-04:00) Asunci¢n
+Cantidad total de memoria f¡sica:          4,087 MB
+Memoria f¡sica disponible:                 660 MB
+Memoria virtual: tama¤o m ximo:            15,086 MB
+Memoria virtual: disponible:               10,324 MB
+Memoria virtual: en uso:                   4,762 MB
+Ubicaci¢n(es) de archivo de paginaci¢n:    C:\pagefile.sys
+                                           F:\pagefile.sys
+Dominio:                                   PJROMAR
+Servidor de inicio de sesi¢n:              \\DESKTOP-EPO91MI
+Revisi¢n(es):                              N/D
+Tarjeta(s) de red:                         3 Tarjetas de interfaz de red instaladas.
+                                           [01]: Realtek PCIe FE Family Controller
+                                                 Nombre de conexi¢n: Ethernet
+                                                 DHCP habilitado:    S¡
+                                                 Servidor DHCP:      192.168.0.1
+                                                 Direcciones IP
+                                                 [01]: 192.168.0.102
+                                                 [02]: fe80::d09b:4490:2f1b:7f3d
+                                           [02]: TAP-ProtonVPN Windows Adapter V9
+                                                 Nombre de conexi¢n: Conexi¢n de  rea local
+                                                 Estado:             Medios desconectados
+                                           [03]: Wintun Userspace Tunnel
+                                                 Nombre de conexi¢n: ProtonVPN TUN
+                                                 Estado:             Medios desconectados
+Requisitos Hyper-V:                        Extensiones de modo de monitor de VM: S¡
+                                           Se habilit¢ la virtualizaci¢n en el firmware: S¡
+                                           Traducci¢n de direcciones de segundo nivel: S¡
+                                           La prevenci¢n de ejecuci¢n de datos est  disponible: S¡
+####System Version#### 
+
+Microsoft Windows [Versi¢n 10.0.17763.1]
+####Host Name#### 
+DESKTOP-EPO91MI
+####Environment Variable#### 
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\PC1\AppData\Roaming
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=DESKTOP-EPO91MI
+ComSpec=C:\Windows\system32\cmd.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+HOMEPATH=\Users\PC1
+JD2_HOME=C:\Users\PC1\AppData\Local\JDownloader 2.0
+LOCALAPPDATA=C:\Users\PC1\AppData\Local
+LOGONSERVER=\\DESKTOP-EPO91MI
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Users\PC1\AppData\Local\Microsoft\WindowsApps
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 30 Stepping 5, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=1e05
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\Windows
+TEMP=C:\Users\PC1\AppData\Local\Temp
+TMP=C:\Users\PC1\AppData\Local\Temp
+USERDOMAIN=DESKTOP-EPO91MI
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-EPO91MI
+USERNAME=PC1
+USERPROFILE=C:\Users\PC1
+windir=C:\Windows
+####Logical Disk#### 
+Caption  Description       ProviderName  
+C:       Disco fijo local                
+F:       Disco fijo local                
+G:       Disco fijo local                
+H:       Disco fijo local                
+
+####User Info#### 
+
+Cuentas de usuario de \\DESKTOP-EPO91MI
+
+-------------------------------------------------------------------------------
+Administrador            DefaultAccount           Invitado                 
+PC1                      WDAGUtilityAccount       
+Se ha completado el comando correctamente.
+
+####Online User#### 
+####Local Group#### 
+####Administrators Info#### 
+####Guest User Info#### 
+####Administrator User Info#### 
+####Startup Info#### 
+Caption                         Command                                                                            
+XWorm                           XWorm.exe                                                                          
+NordVPN                         C:\Program Files (x86)\NordVPN\NordVPN.exe                                         
+Load[0]                         C:\ProgramData\Drivers do Windows.exe                                              
+ScpToolkit Tray Notifications   C:\PROGRA~1\NEFARI~1\SCPTOO~1\SCPTRA~1.EXE                                         
+RTHDVCPL                        "C:\Program Files\Realtek\Audio\HDA\RAVCpl64.exe" -s                               
+Wondershare Helper Compact.exe  C:\Program Files\Common Files\Wondershare\Wondershare Helper Compact\WSHelper.exe  
+Load[0]                         C:\ProgramData\Drivers do Windows.exe                                              
+
+####Tasklist#### 
+
+Nombre de imagen               PID Servicios                                    
+========================= ======== =============================================
+System Idle Process              0 N/D                                          
+System                           4 N/D                                          
+Registry                        96 N/D                                          
+smss.exe                       348 N/D                                          
+csrss.exe                      544 N/D                                          
+csrss.exe                      668 N/D                                          
+wininit.exe                    692 N/D                                          
+winlogon.exe                   764 N/D                                          
+services.exe                   888 N/D                                          
+lsass.exe                      908 KeyIso, SamSs, VaultSvc                      
+svchost.exe                     76 BrokerInfrastructure, DcomLaunch, LSM,       
+                                   PlugPlay, Power, SystemEventsBroker          
+fontdrvhost.exe                432 N/D                                          
+fontdrvhost.exe                408 N/D                                          
+svchost.exe                    664 RpcEptMapper, RpcSs                          
+dwm.exe                       1000 N/D                                          
+svchost.exe                   1072 Appinfo, IKEEXT, iphlpsvc, LanmanServer,     
+                                   lfsvc, ProfSvc, Schedule, SENS,              
+                                   ShellHWDetection, Themes, TokenBroker,       
+                                   UserManager, Winmgmt, wlidsvc                
+svchost.exe                   1108 AudioEndpointBuilder,                        
+                                   DeviceAssociationService, DsSvc, NcbService, 
+                                   PcaSvc, StorSvc, TrkWks                      
+svchost.exe                   1216 Dhcp, EventLog, lmhosts, TimeBrokerSvc,      
+                                   WinHttpAutoProxySvc                          
+svchost.exe                   1312 CoreMessagingRegistrar, NcdAutoSetup         
+svchost.exe                   1364 BthAvctpSvc, CDPSvc, EventSystem, fdPHost,   
+                                   FontCache, LicenseManager, netprofm, nsi,    
+                                   SstpSvc                                      
+QMEmulatorService.exe         1412 QMEmulatorService                            
+svchost.exe                   1464 CryptSvc, Dnscache, LanmanWorkstation,       
+                                   NlaSvc, TapiSrv                              
+svchost.exe                   1868 FDResPub, QWAVE, SSDPSRV                     
+dasHost.exe                   1200 N/D                                          
+atiesrxx.exe                  1656 AMD External Events Utility                  
+amdfendrsr.exe                1828 AMD Crash Defender Service                   
+atieclxx.exe                  2304 N/D                                          
+svchost.exe                   2352 Audiosrv                                     
+svchost.exe                   2472 DusmSvc                                      
+svchost.exe                   2480 Wcmsvc                                       
+svchost.exe                   2532 StateRepository                              
+svchost.exe                   2540 BFE, mpssvc                                  
+svchost.exe                   2684 WlanSvc                                      
+svchost.exe                   2748 PolicyAgent                                  
+spoolsv.exe                   2804 Spooler                                      
+svchost.exe                   3020 stisvc                                       
+ScpService.exe                3060 Ds3Service                                   
+ss_conn_service.exe           2288 ss_conn_service                              
+ss_conn_service2.exe          2324 ss_conn_service2                             
+FreemakeUtilsService.exe      2824 Freemake Improver                            
+OfficeClickToRun.exe          3276 ClickToRunSvc                                
+svchost.exe                   3296 RasMan                                       
+dllhost.exe                   4044 N/D                                          
+audiodg.exe                   2940 N/D                                          
+sihost.exe                    3616 N/D                                          
+svchost.exe                   2740 CDPUserSvc_3bd88, OneSyncSvc_3bd88,          
+                                   WpnUserService_3bd88                         
+taskhostw.exe                 4164 N/D                                          
+explorer.exe                  4516 N/D                                          
+svchost.exe                   4752 cbdhsvc_3bd88                                
+ShellExperienceHost.exe       5092 N/D                                          
+dllhost.exe                   4140 N/D                                          
+RuntimeBroker.exe             2028 N/D                                          
+SettingSyncHost.exe           3184 N/D                                          
+GoogleCrashHandler.exe        2008 N/D                                          
+GoogleCrashHandler64.exe      3828 N/D                                          
+RAVCpl64.exe                  3308 N/D                                          
+ScpTrayApp.exe                2000 N/D                                          
+ProductUpdater.exe            4452 N/D                                          
+WSHelper.exe                  3188 N/D                                          
+system.exe                    3436 N/D                                          
+UninstallMonitor.exe          3768 N/D                                          
+PubPlatform.exe               4472 N/D                                          
+WindowsInternal.Composabl     5416 N/D                                          
+BraveCrashHandler.exe         5508 N/D                                          
+BraveCrashHandler64.exe       5984 N/D                                          
+chrome.exe                    6692 N/D                                          
+chrome.exe                   10672 N/D                                          
+chrome.exe                    5384 N/D                                          
+chrome.exe                   10920 N/D                                          
+chrome.exe                    9988 N/D                                          
+chrome.exe                    8732 N/D                                          
+chrome.exe                    4360 N/D                                          
+chrome.exe                    5392 N/D                                          
+tmpF340.tmp.exe               7908 N/D                                          
+chrome.exe                    7188 N/D                                          
+chrome.exe                    6340 N/D                                          
+chrome.exe                    9500 N/D                                          
+chrome.exe                   11160 N/D                                          
+chrome.exe                    7340 N/D                                          
+chrome.exe                    7292 N/D                                          
+chrome.exe                    7740 N/D                                          
+firefox.exe                   6584 N/D                                          
+firefox.exe                  10904 N/D                                          
+firefox.exe                   9060 N/D                                          
+firefox.exe                   9048 N/D                                          
+firefox.exe                   3896 N/D                                          
+firefox.exe                   1384 N/D                                          
+firefox.exe                   7436 N/D                                          
+XWorm.exe                    10592 N/D                                          
+EpicGamesLauncher.exe         5948 N/D                                          
+EpicWebHelper.exe             7476 N/D                                          
+firefox.exe                   9936 N/D                                          
+chrome.exe                    9664 N/D                                          
+chrome.exe                    1772 N/D                                          
+EpicWebHelper.exe             5836 N/D                                          
+firefox.exe                   6620 N/D                                          
+firefox.exe                  10000 N/D                                          
+EpicWebHelper.exe            10040 N/D                                          
+EpicWebHelper.exe            11080 N/D                                          
+cmd.exe                      10564 N/D                                          
+conhost.exe                  11024 N/D                                          
+WmiPrvSE.exe                  9412 N/D                                          
+WmiPrvSE.exe                 10648 N/D                                          
+TrustedInstaller.exe          6064 TrustedInstaller                             
+TiWorker.exe                  5908 N/D                                          
+tasklist.exe                 11164 N/D                                          
+####Ipconfig#### 
+
+Configuraci¢n IP de Windows
+
+   Nombre de host. . . . . . . . . : DESKTOP-EPO91MI
+   Sufijo DNS principal  . . . . . : 
+   Tipo de nodo. . . . . . . . . . : h¡brido
+   Enrutamiento IP habilitado. . . : no
+   Proxy WINS habilitado . . . . . : no
+
+Adaptador desconocido ProtonVPN TUN:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   Descripci¢n . . . . . . . . . . . . . . . : ProtonVPN Tunnel
+   Direcci¢n f¡sica. . . . . . . . . . . . . : 
+   DHCP habilitado . . . . . . . . . . . . . : no
+   Configuraci¢n autom tica habilitada . . . : s¡
+
+Adaptador desconocido Conexi¢n de  rea local:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   Descripci¢n . . . . . . . . . . . . . . . : TAP-ProtonVPN Windows Adapter V9
+   Direcci¢n f¡sica. . . . . . . . . . . . . : 00-FF-A8-2C-26-76
+   DHCP habilitado . . . . . . . . . . . . . : s¡
+   Configuraci¢n autom tica habilitada . . . : s¡
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   Descripci¢n . . . . . . . . . . . . . . . : Realtek PCIe FE Family Controller
+   Direcci¢n f¡sica. . . . . . . . . . . . . : 00-E0-4C-22-2A-9C
+   DHCP habilitado . . . . . . . . . . . . . : s¡
+   Configuraci¢n autom tica habilitada . . . : s¡
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::d09b:4490:2f1b:7f3d%15(Preferido) 
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.0.102(Preferido) 
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Concesi¢n obtenida. . . . . . . . . . . . : domingo, 11 de septiembre de 2022 01:01:47
+   La concesi¢n expira . . . . . . . . . . . : lunes, 12 de septiembre de 2022 13:01:43
+   Puerta de enlace predeterminada . . . . . : 192.168.0.1
+   Servidor DHCP . . . . . . . . . . . . . . : 192.168.0.1
+   IAID DHCPv6 . . . . . . . . . . . . . . . : 100720716
+   DUID de cliente DHCPv6. . . . . . . . . . : 00-01-00-01-29-F9-AD-1C-00-E0-4C-22-2A-9C
+   Servidores DNS. . . . . . . . . . . . . . : 9.9.9.10
+                                       149.112.112.10
+                                       192.168.0.1
+   NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado
+####Hosts#### 
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+####Route Table#### 
+===========================================================================
+ILista de interfaces
+ 14...........................ProtonVPN Tunnel
+ 12...00 ff a8 2c 26 76 ......TAP-ProtonVPN Windows Adapter V9
+ 15...00 e0 4c 22 2a 9c ......Realtek PCIe FE Family Controller
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Tabla de enrutamiento
+===========================================================================
+Rutas activas:
+Destino de red        M scara de red   Puerta de enlace   Interfaz  M‚trica
+          0.0.0.0          0.0.0.0      192.168.0.1    192.168.0.102     35
+        127.0.0.0        255.0.0.0      En v¡nculo         127.0.0.1    331
+        127.0.0.1  255.255.255.255      En v¡nculo         127.0.0.1    331
+  127.255.255.255  255.255.255.255      En v¡nculo         127.0.0.1    331
+      192.168.0.0    255.255.255.0      En v¡nculo     192.168.0.102    291
+    192.168.0.102  255.255.255.255      En v¡nculo     192.168.0.102    291
+    192.168.0.255  255.255.255.255      En v¡nculo     192.168.0.102    291
+        224.0.0.0        240.0.0.0      En v¡nculo         127.0.0.1    331
+        224.0.0.0        240.0.0.0      En v¡nculo     192.168.0.102    291
+  255.255.255.255  255.255.255.255      En v¡nculo         127.0.0.1    331
+  255.255.255.255  255.255.255.255      En v¡nculo     192.168.0.102    291
+===========================================================================
+Rutas persistentes:
+  Ninguno
+
+IPv6 Tabla de enrutamiento
+===========================================================================
+Rutas activas:
+ Cuando destino de red m‚trica      Puerta de enlace
+  1    331 ::1/128                  En v¡nculo
+ 15    291 fe80::/64                En v¡nculo
+ 15    291 fe80::d09b:4490:2f1b:7f3d/128
+                                    En v¡nculo
+  1    331 ff00::/8                 En v¡nculo
+ 15    291 ff00::/8                 En v¡nculo
+===========================================================================
+Rutas persistentes:
+  Ninguno
+####Arp Info#### 
+
+Interfaz: 192.168.0.102 --- 0xf
+  Direcci¢n de Internet          Direcci¢n f¡sica      Tipo
+  192.168.0.1           c4-e9-84-7e-73-9c     din mico  
+  192.168.0.103         00-23-54-e2-3a-36     din mico  
+  192.168.0.106         00-25-22-f2-7d-a7     din mico  
+  192.168.0.255         ff-ff-ff-ff-ff-ff     est tico  
+  224.0.0.2             01-00-5e-00-00-02     est tico  
+  224.0.0.22            01-00-5e-00-00-16     est tico  
+  224.0.0.251           01-00-5e-00-00-fb     est tico  
+  224.0.0.252           01-00-5e-00-00-fc     est tico  
+  239.255.255.250       01-00-5e-7f-ff-fa     est tico  
+  255.255.255.255       ff-ff-ff-ff-ff-ff     est tico  
+####Netstat#### 
+
+Conexiones activas
+
+  Proto  Direcci¢n local          Direcci¢n remota        Estado           PID
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       664
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING       1364
+  TCP    0.0.0.0:5357           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:8732           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:26760          0.0.0.0:0              LISTENING       3060
+  TCP    0.0.0.0:26761          0.0.0.0:0              LISTENING       3060
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       692
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       1216
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       1072
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       908
+  TCP    0.0.0.0:49674          0.0.0.0:0              LISTENING       2804
+  TCP    0.0.0.0:49675          0.0.0.0:0              LISTENING       2748
+  TCP    0.0.0.0:49680          0.0.0.0:0              LISTENING       888
+  TCP    127.0.0.1:8085         0.0.0.0:0              LISTENING       2000
+  TCP    127.0.0.1:24853        127.0.0.1:24854        ESTABLISHED     6584
+  TCP    127.0.0.1:24854        127.0.0.1:24853        ESTABLISHED     6584
+  TCP    127.0.0.1:24860        127.0.0.1:24861        ESTABLISHED     9060
+  TCP    127.0.0.1:24861        127.0.0.1:24860        ESTABLISHED     9060
+  TCP    127.0.0.1:50911        0.0.0.0:0              LISTENING       2288
+  TCP    127.0.0.1:50912        0.0.0.0:0              LISTENING       2324
+  TCP    192.168.0.102:139      0.0.0.0:0              LISTENING       4
+  TCP    192.168.0.102:20428    64.233.186.188:5228    ESTABLISHED     10920
+  TCP    192.168.0.102:24039    31.13.94.11:443        ESTABLISHED     10920
+  TCP    192.168.0.102:24656    189.106.241.60:7777    ESTABLISHED     3436
+  TCP    192.168.0.102:24870    54.202.70.174:443      ESTABLISHED     6584
+  TCP    192.168.0.102:25491    18.214.139.59:443      ESTABLISHED     5948
+  TCP    192.168.0.102:25493    54.91.137.197:443      ESTABLISHED     5948
+  TCP    192.168.0.102:25519    189.106.241.60:4449    ESTABLISHED     7908
+  TCP    192.168.0.102:25594    52.6.80.150:443        ESTABLISHED     5836
+  TCP    192.168.0.102:25642    18.65.48.91:443        ESTABLISHED     5948
+  TCP    192.168.0.102:25744    44.194.180.70:443      CLOSE_WAIT      5948
+  TCP    192.168.0.102:25745    44.194.180.70:443      CLOSE_WAIT      5948
+  TCP    192.168.0.102:25746    3.216.188.29:443       CLOSE_WAIT      5948
+  TCP    192.168.0.102:25747    52.20.231.195:443      CLOSE_WAIT      5948
+  TCP    192.168.0.102:25749    54.84.37.89:443        CLOSE_WAIT      5948
+  TCP    192.168.0.102:25828    201.217.3.212:443      TIME_WAIT       0
+  TCP    192.168.0.102:25829    34.225.118.76:443      TIME_WAIT       0
+  TCP    192.168.0.102:25838    189.106.241.60:4449    CLOSE_WAIT      7908
+  TCP    192.168.0.102:25840    201.217.3.212:443      TIME_WAIT       0
+  TCP    192.168.0.102:25842    189.106.241.60:4449    TIME_WAIT       0
+  TCP    192.168.0.102:25846    13.227.83.35:443       TIME_WAIT       0
+  TCP    192.168.0.102:25848    34.225.118.76:443      TIME_WAIT       0
+  TCP    192.168.0.102:25850    201.217.3.212:443      TIME_WAIT       0
+  TCP    192.168.0.102:25851    189.106.241.60:4449    ESTABLISHED     7908
+  TCP    192.168.0.102:25853    13.227.83.35:443       ESTABLISHED     5836
+  TCP    192.168.0.102:25855    201.217.3.212:443      ESTABLISHED     10920
+  TCP    [::]:135               [::]:0                 LISTENING       664
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:5357              [::]:0                 LISTENING       4
+  TCP    [::]:8732              [::]:0                 LISTENING       4
+  TCP    [::]:26760             [::]:0                 LISTENING       3060
+  TCP    [::]:49664             [::]:0                 LISTENING       692
+  TCP    [::]:49665             [::]:0                 LISTENING       1216
+  TCP    [::]:49666             [::]:0                 LISTENING       1072
+  TCP    [::]:49667             [::]:0                 LISTENING       908
+  TCP    [::]:49674             [::]:0                 LISTENING       2804
+  TCP    [::]:49675             [::]:0                 LISTENING       2748
+  TCP    [::]:49680             [::]:0                 LISTENING       888
+  UDP    0.0.0.0:500            *:*                                    1072
+  UDP    0.0.0.0:3702           *:*                                    1200
+  UDP    0.0.0.0:3702           *:*                                    1868
+  UDP    0.0.0.0:3702           *:*                                    1200
+  UDP    0.0.0.0:3702           *:*                                    1868
+  UDP    0.0.0.0:4500           *:*                                    1072
+  UDP    0.0.0.0:5050           *:*                                    1364
+  UDP    0.0.0.0:5353           *:*                                    5836
+  UDP    0.0.0.0:5353           *:*                                    5836
+  UDP    0.0.0.0:5353           *:*                                    6692
+  UDP    0.0.0.0:5353           *:*                                    6692
+  UDP    0.0.0.0:5353           *:*                                    5836
+  UDP    0.0.0.0:5353           *:*                                    5836
+  UDP    0.0.0.0:5353           *:*                                    10920
+  UDP    0.0.0.0:5353           *:*                                    10920
+  UDP    0.0.0.0:5353           *:*                                    1464
+  UDP    0.0.0.0:5355           *:*                                    1464
+  UDP    0.0.0.0:60726          *:*                                    1868
+  UDP    0.0.0.0:60732          *:*                                    1200
+  UDP    0.0.0.0:63458          *:*                                    5836
+  UDP    127.0.0.1:1900         *:*                                    1868
+  UDP    127.0.0.1:52281        *:*                                    1072
+  UDP    127.0.0.1:60731        *:*                                    1868
+  UDP    192.168.0.102:137      *:*                                    4
+  UDP    192.168.0.102:138      *:*                                    4
+  UDP    192.168.0.102:1900     *:*                                    1868
+  UDP    192.168.0.102:2177     *:*                                    1868
+  UDP    192.168.0.102:60730    *:*                                    1868
+  UDP    [::]:500               *:*                                    1072
+  UDP    [::]:3702              *:*                                    1868
+  UDP    [::]:3702              *:*                                    1200
+  UDP    [::]:3702              *:*                                    1200
+  UDP    [::]:3702              *:*                                    1868
+  UDP    [::]:4500              *:*                                    1072
+  UDP    [::]:5353              *:*                                    1464
+  UDP    [::]:5353              *:*                                    10920
+  UDP    [::]:5353              *:*                                    6692
+  UDP    [::]:5353              *:*                                    5836
+  UDP    [::]:5353              *:*                                    5836
+  UDP    [::]:5355              *:*                                    1464
+  UDP    [::]:60727             *:*                                    1868
+  UDP    [::]:60733             *:*                                    1200
+  UDP    [::1]:1900             *:*                                    1868
+  UDP    [::1]:60729            *:*                                    1868
+  UDP    [fe80::d09b:4490:2f1b:7f3d%15]:1900  *:*                                    1868
+  UDP    [fe80::d09b:4490:2f1b:7f3d%15]:2177  *:*                                    1868
+  UDP    [fe80::d09b:4490:2f1b:7f3d%15]:60728  *:*                                    1868
+####Service Info#### 
+
+NOMBRE_DE_SERVICIO: AJRouter
+NOMBRE_PARA_MOSTRAR: Servicio de enrutador de AllJoyn
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: ALG
+NOMBRE_PARA_MOSTRAR: Servicio de puerta de enlace de nivel de aplicaci¢n
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: AMD Crash Defender Service
+NOMBRE_MOSTRAR : AMD Crash Defender Service
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: AMD External Events Utility
+NOMBRE_MOSTRAR : AMD External Events Utility
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: AppIDSvc
+NOMBRE_PARA_MOSTRAR: Identidad de aplicaci¢n
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: Appinfo
+NOMBRE_MOSTRAR : Informaci¢n de la aplicaci¢n
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: AppMgmt
+NOMBRE_PARA_MOSTRAR: Administraci¢n de aplicaciones
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: AppReadiness
+NOMBRE_PARA_MOSTRAR: Preparaci¢n de aplicaciones
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: AppXSvc
+NOMBRE_PARA_MOSTRAR: Servicio de implementaci¢n de AppX (AppXSVC)
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: AssignedAccessManagerSvc
+NOMBRE_PARA_MOSTRAR: Servicio AssignedAccessManager
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: AudioEndpointBuilder
+NOMBRE_MOSTRAR : Compilador de extremo de audio de Windows
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: Audiosrv
+NOMBRE_MOSTRAR : Audio de Windows
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: AvastWscReporter
+NOMBRE_PARA_MOSTRAR: AvastWscReporter
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: AxInstSV
+NOMBRE_PARA_MOSTRAR: Instalador de ActiveX (AxInstSV)
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: BFE
+NOMBRE_MOSTRAR : Motor de filtrado de base
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: BITS
+NOMBRE_PARA_MOSTRAR: Servicio de transferencia inteligente en segundo plano (BITS)
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: BrokerInfrastructure
+NOMBRE_MOSTRAR : Servicio de infraestructura de tareas en segundo plano
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: BTAGService
+NOMBRE_PARA_MOSTRAR: Servicio de puerta de enlace de audio de Bluetooth
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: BthAvctpSvc
+NOMBRE_MOSTRAR : Servicio AVCTP
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: bthserv
+NOMBRE_PARA_MOSTRAR: Servicio de compatibilidad con Bluetooth
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: camsvc
+NOMBRE_PARA_MOSTRAR: Servicio Administrador de funcionalidad de acceso
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: CDPSvc
+NOMBRE_MOSTRAR : Servicio de plataforma de dispositivos conectados
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: CertPropSvc
+NOMBRE_PARA_MOSTRAR: Propagaci¢n de certificados
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: ClickToRunSvc
+NOMBRE_MOSTRAR : Microsoft Office Click-to-Run Service
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: ClipSVC
+NOMBRE_PARA_MOSTRAR: Servicio de licencia de cliente (ClipSVC)
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: COMSysApp
+NOMBRE_PARA_MOSTRAR: Aplicaci¢n del sistema COM+
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: CoreMessagingRegistrar
+NOMBRE_MOSTRAR : CoreMessaging
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: CryptSvc
+NOMBRE_MOSTRAR : Servicios de cifrado
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: CscService
+NOMBRE_PARA_MOSTRAR: Archivos sin conexi¢n
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: DcomLaunch
+NOMBRE_MOSTRAR : Iniciador de procesos de servidor DCOM
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: defragsvc
+NOMBRE_PARA_MOSTRAR: Optimizar unidades
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: DeviceAssociationService
+NOMBRE_MOSTRAR : Servicio de asociaci¢n de dispositivos
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: DeviceInstall
+NOMBRE_PARA_MOSTRAR: Servicio de instalaci¢n de dispositivos
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: DevQueryBroker
+NOMBRE_PARA_MOSTRAR: Agente de detecci¢n en segundo plano de DevQuery
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: Dhcp
+NOMBRE_MOSTRAR : Cliente DHCP
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: diagnosticshub.standardcollector.service
+NOMBRE_PARA_MOSTRAR: Servicio Recopilador est ndar del concentrador de diagn¢sticos de Microsoft (R)
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: diagsvc
+NOMBRE_PARA_MOSTRAR: Diagnostic Execution Service
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: DisplayEnhancementService
+NOMBRE_PARA_MOSTRAR: Servicio de mejora de visualizaci¢n
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: DmEnrollmentSvc
+NOMBRE_PARA_MOSTRAR: Servicio de inscripci¢n de administraci¢n de dispositivos
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: dmwappushservice
+NOMBRE_PARA_MOSTRAR: Servicio de enrutamiento de mensajes de inserci¢n del Protocolo de aplicaci¢n inal mbrica (WAP) de administraci¢n de dispositivos
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: Dnscache
+NOMBRE_MOSTRAR : Cliente DNS
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: DoSvc
+NOMBRE_PARA_MOSTRAR: Optimizaci¢n de entrega
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: dot3svc
+NOMBRE_PARA_MOSTRAR: Configuraci¢n autom tica de redes cableadas
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: DPS
+NOMBRE_PARA_MOSTRAR: Servicio de directivas de diagn¢stico
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: Ds3Service
+NOMBRE_MOSTRAR : SCP DSx Service
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: DsmSvc
+NOMBRE_PARA_MOSTRAR: Administrador de configuraci¢n de dispositivos
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: DsSvc
+NOMBRE_MOSTRAR : Servicio de uso compartido de datos
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: DusmSvc
+NOMBRE_MOSTRAR : Uso de datos
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: Eaphost
+NOMBRE_PARA_MOSTRAR: Protocolo de autenticaci¢n extensible
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: edgeupdate
+NOMBRE_PARA_MOSTRAR: Microsoft Edge Update Service (edgeupdate)
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: edgeupdatem
+NOMBRE_PARA_MOSTRAR: Microsoft Edge Update Service (edgeupdatem)
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: EFS
+NOMBRE_PARA_MOSTRAR: Sistema de cifrado de archivos (EFS)
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: embeddedmode
+NOMBRE_PARA_MOSTRAR: Modo incrustado
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: EntAppSvc
+NOMBRE_PARA_MOSTRAR: Servicio de administraci¢n de aplicaciones de empresa
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: EventLog
+NOMBRE_MOSTRAR : Registro de eventos de Windows
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: EventSystem
+NOMBRE_MOSTRAR : Sistema de eventos COM+
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: fdPHost
+NOMBRE_MOSTRAR : Host de proveedor de detecci¢n de funci¢n
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: FDResPub
+NOMBRE_MOSTRAR : Publicaci¢n de recurso de detecci¢n de funci¢n
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: fhsvc
+NOMBRE_PARA_MOSTRAR: Servicio de historial de archivos
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: FontCache
+NOMBRE_MOSTRAR : Servicio de cach‚ de fuentes de Windows
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: FontCache3.0.0.0
+NOMBRE_PARA_MOSTRAR: Windows Presentation Foundation Font Cache 3.0.0.0
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: FrameServer
+NOMBRE_PARA_MOSTRAR: Servicio FrameServer de la C mara de Windows
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: Freemake Improver
+NOMBRE_MOSTRAR : Freemake Improver
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: GoogleChromeElevationService
+NOMBRE_PARA_MOSTRAR: Google Chrome Elevation Service (GoogleChromeElevationService)
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: gpsvc
+NOMBRE_PARA_MOSTRAR: Cliente de directiva de grupo
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: GraphicsPerfSvc
+NOMBRE_PARA_MOSTRAR: GraphicsPerfSvc
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: gupdate
+NOMBRE_PARA_MOSTRAR: Google Update Servicio (gupdate)
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: gupdatem
+NOMBRE_PARA_MOSTRAR: Google Update Servicio (gupdatem)
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: hidserv
+NOMBRE_PARA_MOSTRAR: Servicio de dispositivo de interfaz humana
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: HvHost
+NOMBRE_PARA_MOSTRAR: Servicio de host HV
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: icssvc
+NOMBRE_PARA_MOSTRAR: Servicio de zona con cobertura inal mbrica m¢vil de Windows
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: IKEEXT
+NOMBRE_MOSTRAR : M¢dulos de creaci¢n de claves de IPsec para IKE y AuthIP
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: InstallService
+NOMBRE_PARA_MOSTRAR: Servicio de instalaci¢n de Microsoft Store
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: IObitUnSvr
+NOMBRE_PARA_MOSTRAR: IObit Uninstaller Service
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: iphlpsvc
+NOMBRE_MOSTRAR : Aplicaci¢n auxiliar IP
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: IpxlatCfgSvc
+NOMBRE_PARA_MOSTRAR: Servicio de configuraci¢n de traslaci¢n de IP
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: irmon
+NOMBRE_PARA_MOSTRAR: Servicio de monitor de infrarrojos
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: KeyIso
+NOMBRE_MOSTRAR : Aislamiento de claves CNG
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: KtmRm
+NOMBRE_PARA_MOSTRAR: KTMRM para DTC (Coordinador de transacciones distribuidas)
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: LanmanServer
+NOMBRE_MOSTRAR : Servidor
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: LanmanWorkstation
+NOMBRE_MOSTRAR : Estaci¢n de trabajo
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: lfsvc
+NOMBRE_MOSTRAR : Servicio de geolocalizaci¢n
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: LicenseManager
+NOMBRE_MOSTRAR : Servicio de administrador de licencias de Windows
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: lltdsvc
+NOMBRE_PARA_MOSTRAR: Asignador de detecci¢n de topolog¡as de nivel de v¡nculo
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: lmhosts
+NOMBRE_MOSTRAR : Aplicaci¢n auxiliar de NetBIOS sobre TCP/IP
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: LSM
+NOMBRE_MOSTRAR : Administrador de sesi¢n local
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: LxpSvc
+NOMBRE_PARA_MOSTRAR: Servicio de experiencia de idioma
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: MozillaMaintenance
+NOMBRE_PARA_MOSTRAR: Mozilla Maintenance Service
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: mpssvc
+NOMBRE_MOSTRAR : Firewall de Windows Defender
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: MSDTC
+NOMBRE_PARA_MOSTRAR: Coordinador de transacciones distribuidas
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: MSiSCSI
+NOMBRE_PARA_MOSTRAR: Servicio del iniciador iSCSI de Microsoft
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: msiserver
+NOMBRE_PARA_MOSTRAR: Windows Installer
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: NaturalAuthentication
+NOMBRE_PARA_MOSTRAR: Autenticaci¢n natural
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: NcaSvc
+NOMBRE_PARA_MOSTRAR: Asistente para la conectividad de red
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: NcbService
+NOMBRE_MOSTRAR : Agente de conexi¢n de red
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: NcdAutoSetup
+NOMBRE_MOSTRAR : Configuraci¢n autom tica de dispositivos conectados a la red
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: Netlogon
+NOMBRE_PARA_MOSTRAR: Net Logon
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: Netman
+NOMBRE_PARA_MOSTRAR: Conexiones de red
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: netprofm
+NOMBRE_MOSTRAR : Servicio de lista de redes
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: NetSetupSvc
+NOMBRE_PARA_MOSTRAR: Servicio de configuraci¢n de red
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: NetTcpPortSharing
+NOMBRE_PARA_MOSTRAR: Servicio de uso compartido de puertos Net.Tcp
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: NgcCtnrSvc
+NOMBRE_PARA_MOSTRAR: Contenedor de Microsoft Passport
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: NgcSvc
+NOMBRE_PARA_MOSTRAR: Microsoft Passport
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: NlaSvc
+NOMBRE_MOSTRAR : Reconoc. ubicaci¢n de red
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: nsi
+NOMBRE_MOSTRAR : Servicio Interfaz de almacenamiento en red
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: p2pimsvc
+NOMBRE_PARA_MOSTRAR: Administrador de identidad de redes de mismo nivel
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: p2psvc
+NOMBRE_PARA_MOSTRAR: Agrupaci¢n de red del mismo nivel
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: PcaSvc
+NOMBRE_MOSTRAR : Servicio Asistente para la compatibilidad de programas
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: PeerDistSvc
+NOMBRE_PARA_MOSTRAR: BranchCache
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: PerfHost
+NOMBRE_PARA_MOSTRAR: DLL de host del Contador de rendimiento
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: PhoneSvc
+NOMBRE_PARA_MOSTRAR: Servicio telef¢nico
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: pla
+NOMBRE_PARA_MOSTRAR: Registros y alertas de rendimiento
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: PlugPlay
+NOMBRE_MOSTRAR : Plug and Play
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: PNRPAutoReg
+NOMBRE_PARA_MOSTRAR: Servicio de publicaci¢n de nombres de equipo PNRP
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: PNRPsvc
+NOMBRE_PARA_MOSTRAR: Protocolo de resoluci¢n de nombres de mismo nivel
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: PolicyAgent
+NOMBRE_MOSTRAR : Agente de directiva IPsec
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: Power
+NOMBRE_MOSTRAR : Energ¡a
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: PrintNotify
+NOMBRE_PARA_MOSTRAR: Extensiones y notificaciones de impresora
+        TIPO                         : 120  WIN32_SHARE_PROCESS  (interactive)
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: ProfSvc
+NOMBRE_MOSTRAR : Servicio de perfil de usuario
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: PushToInstall
+NOMBRE_PARA_MOSTRAR: Servicio PushToInstall de Windows
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: QMEmulatorService
+NOMBRE_MOSTRAR : QMEmulatorService
+        TIPO               : 110  WIN32_OWN_PROCESS  (interactive)
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: QWAVE
+NOMBRE_MOSTRAR : Experiencia de calidad de audio y v¡deo de Windows (qWave)
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: RasAuto
+NOMBRE_PARA_MOSTRAR: Administrador de conexiones autom ticas de acceso remoto
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: RasMan
+NOMBRE_MOSTRAR : Administrador de conexiones de acceso remoto
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: RemoteAccess
+NOMBRE_PARA_MOSTRAR: Enrutamiento y acceso remoto
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: RemoteRegistry
+NOMBRE_PARA_MOSTRAR: Registro remoto
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: RmSvc
+NOMBRE_PARA_MOSTRAR: Servicio de administraci¢n de radio
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: RpcEptMapper
+NOMBRE_MOSTRAR : Asignador de extremos de RPC
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: RpcLocator
+NOMBRE_PARA_MOSTRAR: Ubicador de llamada a procedimiento remoto (RPC)
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: RpcSs
+NOMBRE_MOSTRAR : Llamada a procedimiento remoto (RPC)
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: SamSs
+NOMBRE_MOSTRAR : Administrador de cuentas de seguridad
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: SCardSvr
+NOMBRE_PARA_MOSTRAR: Tarjeta inteligente
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: ScDeviceEnum
+NOMBRE_PARA_MOSTRAR: Servicio de enumeraci¢n de dispositivos de tarjeta inteligente
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: Schedule
+NOMBRE_MOSTRAR : Programador de tareas
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: SCPolicySvc
+NOMBRE_PARA_MOSTRAR: Directiva de extracci¢n de tarjetas inteligentes
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: SDRSVC
+NOMBRE_PARA_MOSTRAR: Copias de seguridad de Windows
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: seclogon
+NOMBRE_PARA_MOSTRAR: Inicio de sesi¢n secundario
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: SEMgrSvc
+NOMBRE_PARA_MOSTRAR: Administrador de pagos y NFC/SE
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: SENS
+NOMBRE_MOSTRAR : Servicio de notificaci¢n de eventos de sistema
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: SensorDataService
+NOMBRE_PARA_MOSTRAR: Servicio de datos del sensor
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: SensorService
+NOMBRE_PARA_MOSTRAR: Servicio de sensores
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: SensrSvc
+NOMBRE_PARA_MOSTRAR: Servicio de supervisi¢n de sensores
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: SessionEnv
+NOMBRE_PARA_MOSTRAR: Configuraci¢n de Escritorio remoto
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: SharedAccess
+NOMBRE_PARA_MOSTRAR: Conexi¢n compartida a Internet (ICS)
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: ShellHWDetection
+NOMBRE_MOSTRAR : Detecci¢n de hardware shell
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: shpamsvc
+NOMBRE_PARA_MOSTRAR: Shared PC Account Manager
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 2147549183  (0x8000ffff)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: smphost
+NOMBRE_PARA_MOSTRAR: SMP de Espacios de almacenamiento de Microsoft
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: SmsRouter
+NOMBRE_PARA_MOSTRAR: Servicio enrutador de SMS de Microsoft Windows.
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: SNMPTRAP
+NOMBRE_PARA_MOSTRAR: Captura de SNMP
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: Spooler
+NOMBRE_MOSTRAR : Cola de impresi¢n
+        TIPO               : 110  WIN32_OWN_PROCESS  (interactive)
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: sppsvc
+NOMBRE_PARA_MOSTRAR: Protecci¢n de software
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: SSDPSRV
+NOMBRE_MOSTRAR : Detecci¢n SSDP
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: ssh-agent
+NOMBRE_PARA_MOSTRAR: OpenSSH Authentication Agent
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: SstpSvc
+NOMBRE_MOSTRAR : Servicio de protocolo de t£nel de sockets seguros
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: ss_conn_service
+NOMBRE_MOSTRAR : SAMSUNG Mobile Connectivity Service
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: ss_conn_service2
+NOMBRE_MOSTRAR : SAMSUNG Mobile Connectivity Service V2
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: StateRepository
+NOMBRE_MOSTRAR : Servicio de repositorio de estado
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: stisvc
+NOMBRE_MOSTRAR : Adquisici¢n de im genes de Windows (WIA)
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: StorSvc
+NOMBRE_MOSTRAR : Servicio de almacenamiento
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: svsvc
+NOMBRE_PARA_MOSTRAR: Comprobador puntual
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: swprv
+NOMBRE_PARA_MOSTRAR: Proveedor de instant neas de software de Microsoft
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: SystemEventsBroker
+NOMBRE_MOSTRAR : Agente de eventos del sistema
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: TabletInputService
+NOMBRE_PARA_MOSTRAR: Servicio de Panel de escritura a mano y teclado t ctil
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: TapiSrv
+NOMBRE_MOSTRAR : Telefon¡a
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: TermService
+NOMBRE_PARA_MOSTRAR: Servicios de Escritorio remoto
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: Themes
+NOMBRE_MOSTRAR : Temas
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: TieringEngineService
+NOMBRE_PARA_MOSTRAR: Administraci¢n de capas de almacenamiento
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: TimeBrokerSvc
+NOMBRE_MOSTRAR : Agente de eventos de tiempo
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: TokenBroker
+NOMBRE_MOSTRAR : Administrador de cuentas web
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: TrkWks
+NOMBRE_MOSTRAR : Cliente de seguimiento de v¡nculos distribuidos
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: TrustedInstaller
+NOMBRE_MOSTRAR : Instalador de m¢dulos de Windows
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: tzautoupdate
+NOMBRE_PARA_MOSTRAR: Actualizador de zona horaria autom tica
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: UmRdpService
+NOMBRE_PARA_MOSTRAR: Redirector de puerto en modo usuario de Servicios de Escritorio remoto
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: updater
+NOMBRE_PARA_MOSTRAR: updater
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: upnphost
+NOMBRE_PARA_MOSTRAR: Dispositivo host de UPnP
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: UserManager
+NOMBRE_MOSTRAR : Administrador de usuarios
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: VaultSvc
+NOMBRE_MOSTRAR : Administrador de credenciales
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: vds
+NOMBRE_PARA_MOSTRAR: Disco virtual
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: VSS
+NOMBRE_PARA_MOSTRAR: Instant neas de volumen
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: W32Time
+NOMBRE_PARA_MOSTRAR: Hora de Windows
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WalletService
+NOMBRE_PARA_MOSTRAR: WalletService
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WarpJITSvc
+NOMBRE_PARA_MOSTRAR: WarpJITSvc
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: wbengine
+NOMBRE_PARA_MOSTRAR: Servicio del m¢dulo de copia de seguridad a nivel de bloque
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: Wcmsvc
+NOMBRE_MOSTRAR : Administrador de conexiones de Windows
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: wcncsvc
+NOMBRE_PARA_MOSTRAR: Registrador de configuraci¢n de Windows Connect Now
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WdiServiceHost
+NOMBRE_PARA_MOSTRAR: Host del servicio de diagn¢stico
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WdiSystemHost
+NOMBRE_PARA_MOSTRAR: Host de sistema de diagn¢stico
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WebClient
+NOMBRE_PARA_MOSTRAR: Cliente web
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: Wecsvc
+NOMBRE_PARA_MOSTRAR: Recopilador de eventos de Windows
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WEPHOSTSVC
+NOMBRE_PARA_MOSTRAR: Servicio host de proveedor de cifrado de Windows
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: wercplsupport
+NOMBRE_PARA_MOSTRAR: Ayuda del Panel de control de Informes de problemas y soluciones
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WerSvc
+NOMBRE_PARA_MOSTRAR: Servicio Informe de errores de Windows
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WFDSConMgrSvc
+NOMBRE_PARA_MOSTRAR: Servicio de administrador de conexiones con servicios Wi-Fi Direct
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WiaRpc
+NOMBRE_PARA_MOSTRAR: Eventos de adquisici¢n de im genes est ticas
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: WinHttpAutoProxySvc
+NOMBRE_MOSTRAR : Servicio de detecci¢n autom tica de proxy web WinHTTP
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: Winmgmt
+NOMBRE_MOSTRAR : Instrumental de administraci¢n de Windows
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: WinRM
+NOMBRE_PARA_MOSTRAR: Administraci¢n remota de Windows (WS-Management)
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: WlanSvc
+NOMBRE_MOSTRAR : Configuraci¢n autom tica de WLAN
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: wlidsvc
+NOMBRE_MOSTRAR : Ayudante para el inicio de sesi¢n de cuenta Microsoft
+        TIPO               : 20  WIN32_SHARE_PROCESS  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: wlpasvc
+NOMBRE_PARA_MOSTRAR: Servicio de asistente para perfil local
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WManSvc
+NOMBRE_PARA_MOSTRAR: Servicio de administraci¢n de Windows
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: wmiApSrv
+NOMBRE_PARA_MOSTRAR: Adaptador de rendimiento de WMI
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WMPNetworkSvc
+NOMBRE_PARA_MOSTRAR: Servicio de uso compartido de red del Reproductor de Windows Media
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: workfolderssvc
+NOMBRE_PARA_MOSTRAR: Carpetas de trabajo
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WpcMonSvc
+NOMBRE_PARA_MOSTRAR: Control parental
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WPDBusEnum
+NOMBRE_PARA_MOSTRAR: Servicio enumerador de dispositivos port tiles
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 0  (0x0)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WpnService
+NOMBRE_PARA_MOSTRAR: Servicio del sistema de notificaciones de inserci¢n de Windows
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WSearch
+NOMBRE_PARA_MOSTRAR: Windows Search
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: wuauserv
+NOMBRE_PARA_MOSTRAR: Windows Update
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: WwanSvc
+NOMBRE_PARA_MOSTRAR: Configuraci¢n autom tica de WWAN
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: XblAuthManager
+NOMBRE_PARA_MOSTRAR: Administraci¢n de autenticaci¢n de Xbox Live
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: XblGameSave
+NOMBRE_PARA_MOSTRAR: Partida guardada en Xbox Live
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: XboxGipSvc
+NOMBRE_PARA_MOSTRAR: Xbox Accessory Management Service
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: XboxNetApiSvc
+NOMBRE_PARA_MOSTRAR: Servicio de red de Xbox Live
+        TIPO                         : 20  WIN32_SHARE_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: BcastDVRUserService_3bd88
+NOMBRE_PARA_MOSTRAR: Servicio de usuario de difusi¢n y GameDVR_3bd88
+        TIPO                         : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: BluetoothUserService_3bd88
+NOMBRE_PARA_MOSTRAR: Servicio de soporte t‚cnico de usuario de Bluetooth_3bd88
+        TIPO                         : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: CaptureService_3bd88
+NOMBRE_PARA_MOSTRAR: CaptureService_3bd88
+        TIPO                         : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: cbdhsvc_3bd88
+NOMBRE_MOSTRAR : Servicio de usuario del portapapeles_3bd88
+        TIPO               : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_SERVICIO: CDPUserSvc_3bd88
+NOMBRE_MOSTRAR : Servicio de usuario de plataforma de dispositivos conectados_3bd88
+        TIPO               : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: ConsentUxUserSvc_3bd88
+NOMBRE_PARA_MOSTRAR: ConsentUX_3bd88
+        TIPO                         : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: DevicePickerUserSvc_3bd88
+NOMBRE_PARA_MOSTRAR: DevicePicker_3bd88
+        TIPO                         : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: DevicesFlowUserSvc_3bd88
+NOMBRE_PARA_MOSTRAR: DevicesFlow_3bd88
+        TIPO                         : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: MessagingService_3bd88
+NOMBRE_PARA_MOSTRAR: MessagingService_3bd88
+        TIPO                         : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: OneSyncSvc_3bd88
+NOMBRE_MOSTRAR : Sincronizar host_3bd88
+        TIPO               : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: PimIndexMaintenanceSvc_3bd88
+NOMBRE_PARA_MOSTRAR: Datos de contactos_3bd88
+        TIPO                         : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: PrintWorkflowUserSvc_3bd88
+NOMBRE_PARA_MOSTRAR: PrintWorkflow_3bd88
+        TIPO                         : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: UnistoreSvc_3bd88
+NOMBRE_PARA_MOSTRAR: Almacenamiento de datos de usuarios_3bd88
+        TIPO                         : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_DE_SERVICIO: UserDataSvc_3bd88
+NOMBRE_PARA_MOSTRAR: Acceso a datos de usuarios_3bd88
+        TIPO                         : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+
+NOMBRE_SERVICIO: WpnUserService_3bd88
+NOMBRE_MOSTRAR : Servicio de usuario de notificaciones de inserci¢n de Windows_3bd88
+        TIPO               : e0  USER_SHARE_PROCESS INSTANCE  
+        ESTADO             : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        CàD_SALIDA_WIN32   : 0  (0x0)
+        CàD_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACIàN_INICIO  : 0x0
+
+NOMBRE_DE_SERVICIO: EpicOnlineServices
+NOMBRE_PARA_MOSTRAR: Epic Online Services
+        TIPO                         : 10  WIN32_OWN_PROCESS  
+        ESTADO                       : 1  STOPPED 
+        CàDIGO_DE_SALIDA_DE_WIN32    : 1077  (0x435)
+        CàDIGO_DE_SALIDA_DEL_SERVICIO: 0  (0x0)
+        PUNTO_DE_CONTROL             : 0x0
+        ESPERA                       : 0x0
+####Firewallinfo#### 
+
+Estado del firewall:
+-------------------------------------------------------------------
+Perfil                               = Est ndar
+Modo funcional                       = Deshabilitar
+Modo de excepci¢n                    = Habilitar
+Modo de resp. difusi¢n/multidifusi¢n = Habilitar
+Modo de notificaci¢n                 = Habilitar
+Versi¢n de directiva de grupo        = Firewall de Windows Defender
+Modo de administraci¢n remota        = Deshabilitar
+
+Puertos actualmente abiertos en todas las interfaces de red:
+Puerto Protocolo Versi¢n  Programa
+-------------------------------------------------------------------
+No hay ning£n puerto abierto en todas las interfaces de red.
+
+IMPORTANTE: El comando se ejecut¢ correctamente.
+No obstante, "netsh firewall" est  obsoleto;
+usa "netsh advfirewall firewall" en su lugar.
+Para obtener m s informaci¢n sobre el uso de los comandos "netsh advfirewall firewall"
+en lugar de "netsh firewall", consulta el art¡culo 947709 de Knowledge Base
+en https://go.microsoft.com/fwlink/?linkid=121488.
+
+
+
+Configuraci¢n del perfil Dominio:
+-------------------------------------------------------------------
+Modo funcional                                = Deshabilitar
+Modo de excepci¢n                             = Habilitar
+Modo de respuesta de multidifusi¢n o difusi¢n = Habilitar
+Modo de notificaci¢n                          = Habilitar
+
+Configuraci¢n de servicio para el perfil Dominio:
+Modo          Personalizado Nombre
+-------------------------------------------------------------------
+Habilitar     No            Compartir archivos e impresoras
+
+Configuraci¢n de programas permitidos para el perfil Dominio:
+Modo    Direcci¢n de tr fico      Nombre / Programa
+-------------------------------------------------------------------
+Habilit  Entrada              audiorelay-tcp / C:\Program Files (x86)\AudioRelay\AudioRelay.exe
+Habilit  Entrada              æTorrent (TCP-In) / C:\Users\PC1\AppData\Roaming\uTorrent\uTorrent.exe
+Habilit  Entrada              ??????????? / C:\Program Files\TxGameAssistant\AppMarket\DL\syzs_dl_svr.exe
+
+Configuraci¢n de puerto para el perfil Dominio:
+Puerto   Modo de Protocolo    Direcci¢n de tr fico          Nombre
+-------------------------------------------------------------------
+
+Configuraci¢n del perfil Est ndar (actual):
+-------------------------------------------------------------------
+Modo funcional                                = Deshabilitar
+Modo de excepci¢n                             = Habilitar
+Modo de respuesta de multidifusi¢n o difusi¢n = Habilitar
+Modo de notificaci¢n                          = Habilitar
+
+Configuraci¢n de servicio para el perfil Est ndar:
+Modo          Personalizado Nombre
+-------------------------------------------------------------------
+Habilitar     No            Compartir archivos e impresoras
+Habilitar     No            Detecci¢n de redes
+
+Configuraci¢n de programas permitidos para el perfil Est ndar:
+Modo    Direcci¢n de tr fico      Nombre / Programa
+-------------------------------------------------------------------
+Habilit  Entrada              system.exe / C:\ProgramData\system.exe
+Habilit  Entrada              audiorelay-tcp / C:\Program Files (x86)\AudioRelay\AudioRelay.exe
+Habilit  Entrada              æTorrent (TCP-In) / C:\Users\PC1\AppData\Roaming\uTorrent\uTorrent.exe
+Habilit  Entrada              ??????????? / C:\Program Files\TxGameAssistant\AppMarket\DL\syzs_dl_svr.exe
+Habilit  Entrada              Microsoft Lync UcMapi / C:\Program Files\Microsoft Office\root\Office16\UcMapi.exe
+Habilit  Entrada              Microsoft Lync / C:\Program Files\Microsoft Office\root\Office16\Lync.exe
+Habilit  Entrada              Firefox (C:\Program Files\Mozilla Firefox) / C:\Program Files\Mozilla Firefox\firefox.exe
+
+Configuraci¢n de puerto para el perfil Est ndar:
+Puerto   Modo de Protocolo    Direcci¢n de tr fico          Nombre
+-------------------------------------------------------------------
+
+Configuraci¢n de registro:
+-------------------------------------------------------------------
+Ubicaci¢n de archivo   = C:\Windows\system32\LogFiles\Firewall\pfirewall.log
+Tama¤o m x. de archivo = 4096 KB
+Paquetes perdidos      = Deshabilitar
+Conexiones             = Deshabilitar
+
+IMPORTANTE: El comando se ejecut¢ correctamente.
+No obstante, "netsh firewall" est  obsoleto;
+usa "netsh advfirewall firewall" en su lugar.
+Para obtener m s informaci¢n sobre el uso de los comandos "netsh advfirewall firewall"
+en lugar de "netsh firewall", consulta el art¡culo 947709 de Knowledge Base
+en https://go.microsoft.com/fwlink/?linkid=121488.
+
+
+
+C:\Windows\SysWOW64>exit
